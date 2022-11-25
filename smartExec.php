@@ -3,4 +3,4 @@ exec('bash -c "exec nohup setsid php /home/admin/web/zz.com/public_html/calculat
 
 //$val is an option, you can send paramater with that. You dont have to use it like that
 
-exec('bash -c "exec nohup setsid php /home/admin/web/zz.com/public_html/calculate/test2.php > /dev/null 2>&1 &"');
+exec('nohup setsid php /home/admin/web/zz.com/public_html/calculate/test2.php >> nohup.out 2>&1 &');
